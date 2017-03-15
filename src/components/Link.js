@@ -1,12 +1,11 @@
-import React, { PropTypes } from 'react';
-import { connect } from 'react-redux';
+import React, { PropTypes }    from 'react';
+import { connect }             from 'react-redux';
 import { setVisibilityFilter } from '../actions';
 
 const Link = ({ active, children, onClick }) => {
   if (active) {
     return <span>{children}</span>
   }
-
   return (
     <a href="#"
        onClick={e => {

@@ -1,6 +1,6 @@
-import React from 'react';
-import Footer from './components/Footer'
-import AddTodo from './containers/AddTodo'
+import React           from 'react';
+import Footer          from './components/Footer'
+import AddTodo         from './containers/AddTodo'
 import VisibleToDoList from './containers/VisibleToDoList'
 import './style.css';
 
